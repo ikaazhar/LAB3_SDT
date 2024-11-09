@@ -23,8 +23,8 @@ body{
     background-color: beige;
 }
 img {
-    width: 500px;
-    height: 150px;
+    width: 200px;
+    height: 100px;
     display: block;
     margin: auto;
     justify-content: center; /* Center horizontally */
