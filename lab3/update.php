@@ -27,6 +27,9 @@ if(!isset($_SESSION['username'])){
                         <li class="nav-item">
                             <a class="nav-link active text-white" aria-current="page" href="index.php">Home</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="add_student.php">Add Student</a>
+                        </li>
                         <li class="nav-item ms-2 d-none d-md-inline">
                             <a class="btn btn-danger" href="logout.php">Logout<i class="bi bi-box-arrow-right px-2"></i></a>
                         </li>
