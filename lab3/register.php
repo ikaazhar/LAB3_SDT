@@ -11,7 +11,8 @@
                 <img src="UTM-LOGO-FULL.png" alt="Logo" class="mb-3" style="width: 250px; height: auto;">
                 <!-- White box container -->
                 <div class="bg-white p-4 rounded shadow" style="width: 320px;">
-                    <h2 class="text-center text-dark mb-4">Register New User</h2>
+                    <div class="text-center"><i class="bi bi-person-circle fs-1"></i></div>
+                    <h2 class="text-center text-dark mb-3">Register New User</h2>
                     <form action="register.php" method="POST">
                         <div class="form-group">
                             <label for="username" class="text-dark">Username:</label>
@@ -25,7 +26,7 @@
                             <input type="submit" value="Register" class="btn btn-primary mt-3">
                         </div>
                         <!-- login link below the submit button -->
-                        <a href="login.php" class="d-block text-center mt-3 text-primary">Alreadt have an account? Login here</a>
+                        <a href="login.php" class="d-block text-center mt-3 text-primary">Already have an account? Login here</a>
                     </form>
                 </div>
             </div>
